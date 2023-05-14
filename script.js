@@ -1,12 +1,11 @@
-const password_ele = document.querySelector('pwd_txt');
-var string = "ABCDEFGHIJKLMNOPQRSTUVWXYZacdefghijklnopqrstuvwxyz0123456789";
-const special_chars = "@#$%^&*";
-const generate = document.querySelector("generate");
-const clipboard = document.querySelector("slider");
-
-
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
+
+function generatePassword(){
+  console.log("you clicked the button")
+}
+
+return "generated password goes here";
 
 // Write password to the #password input
 function writePassword() {
