@@ -1,20 +1,26 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
-function generatePassword(){
-  console.log("you clicked the button")
-}
-
-return "generated password goes here";
-
 // Write password to the #password input
-function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
 
-  passwordText.value = password;
+function generatePassword(){
+var password = generatePassword();
+var passwordText = document.querySelector("#password");
 
+passwordText.value = password;
 }
+
+
+function writePassword() {
+  var specialCharacters = confirm ("Would you like a special character?")
+  var passwordLength = generatePassword("Please choose between 8 and 128 characters", 10);
+    console.log(passwordLength);
+    console.log(typeof passwordLength);
+}
+  
+  
+  var passwordText = document.querySelector("#password");
+  console.
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
