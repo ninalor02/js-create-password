@@ -29,3 +29,6 @@ Inside the Assetss folders are:
 
 Inside the CSS folder is the style.css file.
 Inside the JS folder is the script.js file.
+
+
+*** trial in error - password was not able populate random password ***
