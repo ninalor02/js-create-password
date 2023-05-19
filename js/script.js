@@ -60,9 +60,9 @@ console.log(symbols);
 
 var generatePassword = [];
 /* confirm uppercase, lowercase, numbers, symbols */
+/* I'm stuck with this part */
 
-
-if(confirmupperCAse){
+if(upperCase){
   confirmUppercase = passwordCharacter.concat(upperCase)
 }
 if(confirmLowerCase){
@@ -78,7 +78,7 @@ console.log(passwordCharacter)
 
 /* empty string will filled in based on loop randomly selected from array */
 
-var randomPassword = ""
+var password = ""
 
 //for loop
 for (var i = 0; i < password.length; i++) {
@@ -89,7 +89,6 @@ console.log(randomNumbers[i])
 }
 
 return randomPassword;
-
 }
 
 // Write password to the #password input
