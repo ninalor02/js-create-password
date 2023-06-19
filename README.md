@@ -23,7 +23,7 @@ In the main folder are the following:
 - README.md file
 - assets folder
 
-Inside the Assetss folders are:
+Inside the Assets folders are:
 - CSS folder
 - JS folder
 
