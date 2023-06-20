@@ -4,31 +4,31 @@ This webpage is created to show you my password generator.
 
 The purpose of this generator is suppose to give you a random code when the prompt is command of your given selection.
 
+This is what the front main page will show.
+
+![Alt text](front.jpg)
+
 The prompt will ask if you want any of the followings:
+1. Enter an number from 8-128 for length of password
+![Alt text](<8-128 characters.jpg>)
 
-1. Uppercase
+2. Uppercase
+![Alt text](uppercase.jpg)
+
 2. Lowercase
+![Alt text](lowercase.jpg)
+
 3. Numbers
-4. Symbols
+![Alt text](numeric.jpg)
 
-If you decides to click "yes" to any of the given characters, the password will generate those characters to you.
+4. Symbols or special characters
+![Alt text](<special characters.jpg>)
 
-If you decide to click "cancel", than it will not be add to the random password.
+If you click yes, than the prompt will be generated to your random password. If you click cancel, it will not generate into your random password.
 
+5. This is an example of the random password that was generated.
+![Alt text](random.password.jpg)
 
-* Locations of the files and folders for this assignment!
-
-In the main folder are the following:
-- index.html file
-- README.md file
-- assets folder
-
-Inside the Assets folders are:
-- CSS folder
-- JS folder
-
-Inside the CSS folder is the style.css file.
-Inside the JS folder is the script.js file.
 
 
 *** trial in error - password was not able populate random password ***
