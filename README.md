@@ -29,6 +29,9 @@ If you click yes, than the prompt will be generated to your random password. If 
 5. This is an example of the random password that was generated.
 ![Alt text](random.password.jpg)
 
+* This is where the files are stored/link from html to js and css.
+![Alt text](css.jpg)
+
+![Alt text](js.jpg)
 
 
-*** trial in error - password was not able populate random password ***
